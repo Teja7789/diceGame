@@ -170,7 +170,7 @@
     height: 100%;
     background: #fff;
     opacity: 0.5;
-    background: url("../images/winner.gif");
+    background: url("winner.gif");
     z-index: 100;
 }
 
