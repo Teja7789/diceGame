@@ -25,7 +25,7 @@ function rollDice(playerIndex) {
   const playerNodes = document.getElementById(`player${playerIndex}`);
   playerNodes
     .querySelector(".dice img")
-    .setAttribute("src", `../images/dice${randomNumber}.png`);
+    .setAttribute("src", `../dice${randomNumber}.png`);
   switch (playerIndex) {
     case 1:
       firstPlayerScore += randomNumber;
@@ -91,9 +91,9 @@ function restart(event) {
     event.preventDefault();
     console.log("restart");
     document.querySelectorAll(".score")[0].innerHTML = "0";
-    document.querySelectorAll(".dice img")[0].src = "../images/dice1.png";
+    document.querySelectorAll(".dice img")[0].src = "dice1.png";
     document.querySelectorAll(".score")[1].innerHTML = "0";
-    document.querySelectorAll("dice img")[1].src ="../images/dice1.png";
+    document.querySelectorAll("dice img")[1].src ="dice1.png";
     firstPlayerScore = 0;
     secondPlayerScore =0;
     document.querySelector("winner").style.display ="none";
@@ -105,4 +105,33 @@ function restart(event) {
     .getElementById("player1")
     .getElementsByTagName("input")[0]
     .disabled = false;
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 }
